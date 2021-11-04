@@ -1,2 +1,4 @@
 N = int(input())
-print(N // 60, N % 60)
+h = N // 60
+m = N % 60
+print(h % 24, m % 60)

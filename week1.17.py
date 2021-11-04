@@ -1,0 +1,10 @@
+N = int(input())
+ss = N % 60
+s1 = (ss // 10) % 10
+s2 = ss % 10
+mm1 = N // 60
+mm2 = mm1 % 60
+mm3 = (mm2 // 10) % 10
+mm4 = mm2 % 10
+h = (mm1 // 60) % 24
+print(h, ':', mm3, mm4, ':', s1, s2, sep='')
