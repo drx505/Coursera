@@ -1,9 +1,9 @@
+# Какое число больше?
 a = int(input())
 b = int(input())
-c = int(input())
-if a > b and a > c:
-    print(a)
-elif b > c:
-    print(b)
-else:
-    print(c)
+if a > b:
+    print("1")
+if a < b:
+    print("2")
+if a == b:
+    print("0")

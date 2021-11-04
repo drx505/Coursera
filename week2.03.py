@@ -1,5 +1,10 @@
-g = int(input())
-if (g % 4 == 0 and g % 100 != 0) or g % 400 == 0:
-    print("YES")
+# Максимум трех чисел
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b and a > c:
+    print(a)
+elif b > c:
+    print(b)
 else:
-    print("NO")
+    print(c)

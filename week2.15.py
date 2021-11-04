@@ -1,3 +1,4 @@
+# Упорядочить три числа
 a, b, c = int(input()), int(input()), int(input())
 if a >= b >= c:
     print(c, b, a)

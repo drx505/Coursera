@@ -1,10 +1,11 @@
-n = int(input())
-m = int(input())
-k = int(input())
-# n = 2
-# m = 10
-# k = 7
-if ((k % m == 0) or (k % n == 0)) and k <= (m * n):
+# Цвет клеток шахматной доски
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+dx = abs(x1 - x2)
+dy = abs(y1 - y2)
+if (dx + dy) % 2 == 0:
     print("YES")
 else:
     print("NO")
